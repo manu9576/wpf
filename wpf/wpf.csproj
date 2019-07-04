@@ -63,6 +63,9 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Chap2 DrawingVisual\SectorShape.cs" />
+    <Compile Include="Chap2 DrawingVisual\SectorVisual.cs" />
+    <Compile Include="Chap2 DrawingVisual\VisualContainer.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
