@@ -12,11 +12,8 @@ namespace wpf.Chap2_DrawingVisual
             using (StreamGeometryContext c = geometry.Open())
             {
                 c.BeginFigure(new Point(200, 200), true, true);
-
                 c.LineTo(new Point(175, 50), true, true);
-
                 c.ArcTo(new Point(50, 150), new Size(1, 1), 0, true, SweepDirection.Counterclockwise, true, true);
-
                 c.LineTo(new Point(200, 200), true, true);
             }
 
@@ -26,7 +23,5 @@ namespace wpf.Chap2_DrawingVisual
                 context.DrawGeometry(Brushes.CornflowerBlue, pen, geometry);
             }
         }
-
-
     }
 }
